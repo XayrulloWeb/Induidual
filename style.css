@@ -334,6 +334,7 @@ i {
 .section-blok-img img{
     width: 320px;
     height: 280px;
+  object-fit: cover;
     border-radius: 4px;
     transition: all .3s;
 }
