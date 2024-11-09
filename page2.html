@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muayyan o'rta maktab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header_start">
+                <div class="logo">
+                    <a href="./index.html"><img src="img/logo.png" alt="logo"></a>
+                </div>
+
+                <!-- Burger Icon for Mobile -->
+                <div class="burger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <!-- Navigation Menu -->
+                <nav class="nav">
+                    <ul>
+                        <li class="active"><a href="./index.html">Bosh sahifa</a></li>
+                        <li><a href="./page2.html">Biz haqimizda</a></li>
+                        <li><a href="./info.html">Maktab</a></li>
+                        <li><a href="#tadbirlar">Tadbirlar</a></li>
+                        <li><a href="#rasmlar">Rasmlar</a></li>
+                        <li><a href="#">Aloqa</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="content">
+            <div class="container">
+
+                <div class="content_info cont">
+                    <div class="contant_start">
+                        <div class="content_links">
+                            <a href="./Maktabga%20Kirish%20E.docx" download="./Maktabga%20Kirish%20E.docx">Maktabga Kirish Qoidalari <img src="img/Group%2092.png" alt=""> </a>
+                            <a href="./Maktabga%20Kirish%20E.docx" download="./Maktabga%20Kirish%20E.docx">O'qishga Kirish E'loni <img src="img/Group%2092.png" alt=""> </a>
+                        </div>
+
+                    </div>
+
+                    <div class="content_title">
+                        <h2>2024-2025 O'quv Yili Uchun Yangiliklar va Qabul Ma'lumotlari</h2>
+                    </div>
+                    <div class="btn-page"><button class="btn"> Ro'yxatdan O'ting</button></div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+</div>
+<div class="information">
+    <div class="container">
+        <div class="information_title">Ma'lumotlar</div>
+        <div class="information_text">
+            <p>2024-2025 o'quv yili uchun maktabga qabul jarayoni 5-iyuldan boshlanadi va faqat ma'lum kunlar davomida amalga oshiriladi. Shu davr mobaynida ariza topshirishingiz mumkin.</p>
+            <p>Simulatsiya tizimi ochiq bo'lib, belgilangan kundan tashqari kiritilgan ma'lumotlar o'chirib tashlanadi.</p>
+            <p>Rahmat!</p>
+            <p>O'qituvchilar Jamoasi</p>
+        </div>
+    </div>
+</div>
+<footer style="background-color: #333; color: #fff; padding: 20px; text-align: center; font-family: Arial, sans-serif;">
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
+        <!-- School Information -->
+        <div>
+            <p style="margin: 0;">10 Maktab</p>
+            <p style="margin: 0;">Ташкент, пр. Кушикчи, 4А</p>
+            <p style="margin: 0;">Phone: (99)000-00-00</p>
+            <p style="margin: 0;">Email: info@schoolname.edu</p>
+        </div>
+
+
+    </div>
+    <hr style="border-color: #555; margin: 20px 0;">
+    <p style="margin: 0;">&copy; 2024 Muayyan orta maktab. </p>
+</footer>
+
+<script >
+    function toggleMenu() {
+        document.querySelector(".nav").classList.toggle("active");
+    }
+
+</script>
+</body>
+</html>
